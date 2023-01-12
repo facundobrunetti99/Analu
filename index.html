@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ANALU</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </head>
 <body>
     <div class="contenedor__padre">
-        <header class="header">
-            <nav class="header__nav">
+        <header class="header" data-aos="fade-down">
+            <nav class="header__nav" data-aos="fade-down" data-aos-delay="200">
     
                 <div class="header__icono">
                     <img class="header__icono-img" src="imagenes/iconopast.ico">
@@ -33,11 +35,11 @@
                 </ul>
             </nav>
     
-            <div class="header__comprar">
+            <div class="header__comprar" data-aos="fade-down" data-aos-delay="200">
                 <a href="vista/comprar.html" ><img class="header__a--carro" src="imagenes/carro.ico" ></a>
             </div>
             
-            <div class="header__buscar">
+            <div class="header__buscar" data-aos="fade-down" data-aos-delay="200">
                 
                <input class="header__buscar--submit" type="submit" value="Buscar">
     
@@ -45,15 +47,15 @@
             </div>
         </header>
     
-        <main class="main">
+        <main class="main" >
     
-            <div class="main__h1">
-                <h1 class="main__h1--title">ANALU</h1>
+            <div class="main__h1" data-aos="zoom-in" data-aos-delay="200">
+                <h1 class="main__h1--title" >ANALU</h1>
                 <h2 class="main__h2">PASTELERIA</h2>
             </div>
     
     
-            <section class="main__muestra">
+            <section class="main__muestra" data-aos="zoom-in" data-aos-delay="200">
                 <div class="main__muestra_cont">
                     <img src="imagenes/img11.jpeg" class="main__muestra--img">
                 </div>
@@ -70,12 +72,12 @@
             </section>
     
     
-            <div class="main__h">
+            <div class="main__h" data-aos="zoom-in" data-aos-delay="200">
                 <h2 class="main__h2--title">MAS VENDIDOS</h2>
             </div>
     
     
-            <section class="main__muestra__vendido">
+            <section class="main__muestra__vendido" data-aos="zoom-in" data-aos-delay="200">
     
                 <div class="main__muestra_cont">
                     <img src="imagenes/img6.jpeg" class="main__muestra--img">
@@ -167,6 +169,12 @@
         </footer>
         
     </div>
-   
+    
+
+
+ <script>
+ AOS.init();
+ </script>
+
 </body>
 </html>
