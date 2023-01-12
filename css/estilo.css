@@ -9,8 +9,7 @@
 
 body{
     background-color: #faebd7; 
-    height: 100vh;
-    
+    height: 100vh;    
 }
 
 .contenedor__padre{ 
@@ -555,7 +554,6 @@ label{
    
       }
      
-  
       .main__title--cat{
         color: #faebd7;
       }
@@ -602,11 +600,6 @@ label{
         color: #faebd7;
     }
   
-
-
-
-
-
     .main__catalogo{
         display: flex;
         flex-direction: column;
